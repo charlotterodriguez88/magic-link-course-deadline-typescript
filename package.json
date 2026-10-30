@@ -1,0 +1,12 @@
+{
+  "name": "magic-link-course-deadline-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/run_magic_link.ts",
+    "test": "node test/magic_link_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.6.0" }
+}
